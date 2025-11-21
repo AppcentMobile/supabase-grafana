@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     expose:
-      - "8080"
+      - '3000'
     environment:
       SUPABASE_ACCESS_TOKEN: ${SUPABASE_ACCESS_TOKEN}
       SUPABASE_ORGANIZATION_ID: ${SUPABASE_ORGANIZATION_ID}
